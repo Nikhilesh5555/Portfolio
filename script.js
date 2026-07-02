@@ -17,6 +17,7 @@ const cursorFollower  = document.getElementById('cursor-follower');
 const contactForm     = document.getElementById('contact-form');
 const formSuccess     = document.getElementById('form-success');
 const typedEl         = document.getElementById('typed-text');
+const footerYear      = document.getElementById('footer-year');
 const canvas          = document.getElementById('particles-canvas');
 const ctx             = canvas.getContext('2d');
 const certificateModal = document.getElementById('certificate-modal');
@@ -685,7 +686,9 @@ document.querySelectorAll('section').forEach(s => glowObserver.observe(s));
 document.body.style.overflow = 'hidden';
 // Released in loading screen callback above
 
-
+if (footerYear) {
+  footerYear.textContent = new Date().getFullYear();
+}
 
 console.log('%c🚀 R Nethra Nikhilesh Portfolio', 'color:#f3c46b;font-size:18px;font-weight:800;');
 console.log('%cFull Stack Java Developer | SRMIST CSE | CGPA: 9.18', 'color:#f3c46b;font-size:12px;');
