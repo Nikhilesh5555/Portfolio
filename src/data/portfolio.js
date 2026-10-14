@@ -79,35 +79,8 @@ export const skillCategories = [
 
 export const projects = [
   {
-    id: 'cini-movie-recommendation',
-    number: '01',
-    title: 'CINI – Movie Recommendation System',
-    subtitle: 'Content-Based Machine Learning Recommendation Engine',
-    description:
-      'CINI is a content-based movie recommendation web application that recommends movies similar to a movie selected by the user. It analyzes movie genres and converts textual genre information into numerical features using TF-IDF. Cosine similarity is then used to calculate similarity between movies and identify relevant recommendations. The application uses a movie dataset processed with Pandas and Scikit-learn and provides an interactive user interface built with Streamlit.',
-    role: 'ML Engineer & Developer',
-    badge: 'Machine Learning · Streamlit Live',
-    tech: [
-      'Python',
-      'Machine Learning',
-      'Pandas',
-      'Scikit-learn',
-      'TF-IDF Vectorization',
-      'Cosine Similarity',
-      'Streamlit',
-      'Git & GitHub',
-      'Streamlit Community Cloud',
-    ],
-    github: 'https://github.com/Nikhilesh5555/movie-recommendation-system',
-    demo: 'https://movie-recommendation-system-fzqsm47cdo5keubvuyjmrp.streamlit.app/',
-    flagship: true,
-    visualType: 'cinema',
-    accent: '#8b5cf6', // refined violet
-    accentSecondary: '#6366f1', // indigo
-  },
-  {
     id: 'agroscope',
-    number: '02',
+    number: '01',
     title: 'AgroScope',
     subtitle: 'Smart Agricultural Waste Management Platform',
     description:
@@ -135,7 +108,7 @@ export const projects = [
   },
   {
     id: 'smart-crop',
-    number: '03',
+    number: '02',
     title: 'Smart Crop Advisory System',
     subtitle: 'AI-Assisted Agricultural Decision Tool',
     description:
@@ -149,6 +122,33 @@ export const projects = [
     visualType: 'crop',
     accent: '#06b6d4', // cyan
     accentSecondary: '#8b5cf6', // violet
+  },
+  {
+    id: 'cini-movie-recommendation',
+    number: '03',
+    title: 'CINI – Movie Recommendation System',
+    subtitle: 'Content-Based Machine Learning Recommendation Engine',
+    description:
+      'CINI is a content-based movie recommendation web application that recommends movies similar to a movie selected by the user. It analyzes movie genres and converts textual genre information into numerical features using TF-IDF. Cosine similarity is then used to calculate similarity between movies and identify relevant recommendations. The application uses a movie dataset processed with Pandas and Scikit-learn and provides an interactive user interface built with Streamlit.',
+    role: 'ML Engineer & Developer',
+    badge: 'Machine Learning · Streamlit Live',
+    tech: [
+      'Python',
+      'Machine Learning',
+      'Pandas',
+      'Scikit-learn',
+      'TF-IDF Vectorization',
+      'Cosine Similarity',
+      'Streamlit',
+      'Git & GitHub',
+      'Streamlit Community Cloud',
+    ],
+    github: 'https://github.com/Nikhilesh5555/movie-recommendation-system',
+    demo: 'https://movie-recommendation-system-fzqsm47cdo5keubvuyjmrp.streamlit.app/',
+    flagship: true,
+    visualType: 'cinema',
+    accent: '#8b5cf6', // refined violet
+    accentSecondary: '#6366f1', // indigo
   },
 ];
 
